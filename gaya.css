@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF9292;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #F8B2B2;
+    color: black;
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+section {
+    min-height: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#home{
+    background-color: #FF9D9D;
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.foto {
+    /* background-color: black;  */
+}
+.foto img {
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+}
+.profil {
+    background-color: #FF7873;
+}
+.tentangsaya {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}    
+.tentangme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    
+}
+.detailsaya {
+    margin-bottom: 3%;
+    
+}
+
+
+
+.skill {
+    text-align: center;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    gap: 10px;
+    padding: 50px;
+    
+
+}
+.kotak {
+    margin: 10px;
+    height: 80px;
+    width: 150px;
+    border-radius: 15%;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+.projek {
+    background-color: #F8B2B2;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poto {
+    /* background-color: blueviolet; */
+    height: 200px;
+    width: 200px;
+    border-radius: 0%;
+    margin-bottom: 3%;
+}
+.poto img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.web {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+.kontak {
+    background-color: #FFBDA3;
+}
+.form {
+    
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.from {
+    background-color: #B26CFF;
+    height:200px ;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 20px;
+}
+.balok {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+}
+
+.form-kanan, .form-kiri {
+    display: flex;
+    flex-direction: column;
+}
+input[type=text] {
+    height: 50px;
+}
+textarea {
+    height: 130px;
+}
+.balok input[type=submit] {
+    height: 50px;
+    width: 100px;
+    align-self: flex-end;
+    
+
+}
+footer {
+    text-align: center;
+}
